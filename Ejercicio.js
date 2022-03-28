@@ -26,10 +26,8 @@ Enviar.addEventListener("click",(e)=>{
 
 
     if(Postre){
-        const Postr = true
         console.log(`${Nombre} quiere Postre`)
     } else{
-        const Postr = false
         console.log(`${Nombre} No quiere Postre`)
     }
     const number = Formulario.number.selectedIndex
